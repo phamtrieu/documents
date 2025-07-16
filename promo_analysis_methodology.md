@@ -30,16 +30,17 @@ Hệ thống phân tích chương trình khuyến mại sử dụng phương ph�
 - `promo_price`: Giá bán khuyến mại (không VAT)
 - `promo_cost_price`: Giá vốn
 - `promo_netprice`: Giá bán ròng
-- `expense_price`: Chi phí marketing/quảng cáo
+- `expense_price`: Chi phí vận hành + quỹ sử dụng
 
 #### 3. Dữ liệu bán hàng lịch sử
-- `last_3_months_avg_qty`: Số lượng bán trung bình 3 tháng gần nhất
-- `last_6_months_avg_qty`: Số lượng bán trung bình 6 tháng gần nhất  
-- `period_last_year_3m_qty`: Số lượng bán cùng kỳ năm trước
+ví dụ: hiện tại tính ctkm cho tháng 7 năm 2025
+- `last_3_months_avg_qty`: Số lượng bán trung bình 3 tháng gần nhất (là TB của tháng 5,6,7 năm 2025)
+- `last_6_months_avg_qty`: Số lượng bán trung bình 6 tháng gần nhất  (là TB của tháng 2,3,4, 5,6,7 năm 2025)
+- `period_last_year_3m_qty`: Số lượng bán cùng kỳ năm trước (là TB của tháng 7,8,9 năm 2024)
 
 #### 4. Dữ liệu cạnh tranh
-- `promo_qty_other`: Tổng số lượng khuyến mại của đối thủ
-- `total_promo_qty`: Tổng số lượng khuyến mại toàn thị trường
+- `promo_qty_other`: Tổng số lượng khuyến mại các CTKM Khác đã duyệt cùng costcenter, cùng item
+- `total_promo_qty`: Tổng số lượng khuyến mại (bao gồm các ctkm khác đã duyệt có cùng costcenter, itemcode và ctkm đang phân tích)
 
 ---
 
