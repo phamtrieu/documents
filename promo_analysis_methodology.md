@@ -1,19 +1,3 @@
-### C. Tỷ lệ cầu (Demand Ratio)
-
-**Công thức:**
-```
-demand_ratio = promo_qty / last_3_months_avg_qty
-```
-
-**Ý nghĩa chi tiết:**
-- **Mục đích**: Đánh giá tính hợp lý của số lượng khuyến mại so với nhu cầu thực tế
-- **Cách hiểu**: Số lượng KM bằng bao nhiêu lần doanh số bình thường
-- **Giá trị hợp lý (1-2)**: Phù hợp với nhu cầu → **VỪA PHẢI LÀ TỐT**
-- **Giá trị quá cao (>3)# PHƯƠNG PHÁP LUẬN PHÂN TÍCH CHƯƠNG TRÌNH KHUYẾN MẠI
-## Enhanced Promotional Analytics Methodology - Version 2.0
-
----
-
 ## 📋 TỔNG QUAN HỆ THỐNG
 
 ### Mục đích
